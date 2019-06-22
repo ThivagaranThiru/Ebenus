@@ -1,0 +1,14 @@
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-back-office/src/main/java/com/cours/ebenus/servlets/role/UpdateRoleServlet.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-back-office/src/main/java/com/cours/ebenus/servlets/user/UpdateAdresseLivraison.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-back-office/src/main/java/com/cours/ebenus/servlets/user/AddUserServlet.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-back-office/src/main/java/com/cours/ebenus/servlets/produit/UpdateProduitServlet.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-back-office/src/main/java/com/cours/ebenus/servlets/user/UpdateUserServlet.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-back-office/src/main/java/com/cours/ebenus/servlets/role/AllRolesServlet.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-back-office/src/main/java/com/cours/ebenus/servlets/dashboard/DashboardServlet.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-back-office/src/main/java/com/cours/ebenus/servlets/role/AddRoleServlet.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-back-office/src/main/java/com/cours/ebenus/servlets/login/LoginServlet.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-back-office/src/main/java/com/cours/ebenus/servlets/user/AllUsersServlet.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-back-office/src/main/java/com/cours/ebenus/servlets/produit/AllProduitsServlet.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-back-office/src/main/java/com/cours/ebenus/servlets/produit/AddProduitServlet.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-back-office/src/main/java/com/cours/ebenus/servlets/commande/DetailsCommandeServlet.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-back-office/src/main/java/com/cours/ebenus/servlets/commande/AllCommandesServlet.java

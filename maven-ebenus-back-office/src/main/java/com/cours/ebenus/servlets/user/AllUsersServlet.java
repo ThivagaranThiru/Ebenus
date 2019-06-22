@@ -1,0 +1,122 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.cours.ebenus.servlets.user;
+
+import com.cours.ebenus.entities.Adresse;
+import com.cours.ebenus.entities.Utilisateur;
+import com.cours.ebenus.service.IServiceFacade;
+import com.cours.ebenus.service.ServiceFacade;
+import java.io.IOException;
+import java.util.Iterator;
+import java.util.List;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+/**
+ *
+ * @author thiva
+ */
+@WebServlet(name = "AllUsersServlet", urlPatterns = {"/AllUsersServlet"})
+public class AllUsersServlet extends HttpServlet {
+    
+    private IServiceFacade serviceFacade = null;
+    
+    @Override
+    public void init() throws ServletException {
+    	serviceFacade = new ServiceFacade();
+    }
+
+    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
+    /**
+     * Handles the HTTP <code>GET</code> method.
+     *
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        
+        HttpSession session = request.getSession();
+        
+        if(session.getAttribute("user") != null){
+            
+            request.setAttribute("user", (Utilisateur) session.getAttribute("user"));
+            Iterator<Adresse> iterator = null;
+            List<Utilisateur> userList = null;
+            
+            if(request.getParameter("idUser") != null && serviceFacade.getUtilisateurDao() != null && serviceFacade.getAdresseDao() != null){
+                String idUser = request.getParameter("idUser");
+                Utilisateur user = serviceFacade.getUtilisateurDao().findUtilisateurById(Integer.parseInt(idUser));
+                iterator = user.getAdresse().iterator();
+            
+                while(iterator.hasNext()){
+                    Adresse adresse = iterator.next();
+                
+                    serviceFacade.getAdresseDao().deleteAdresse(adresse);
+                }
+                serviceFacade.getUtilisateurDao().deleteUtilisateur(user);
+            }
+        
+            if(request.getParameter("q") != null && serviceFacade.getUtilisateurDao() != null){
+           
+                if(serviceFacade.getUtilisateurDao().findUtilisateursByNom(request.getParameter("q")).size() > 0){
+  
+                    userList = serviceFacade.getUtilisateurDao().findUtilisateursByNom(request.getParameter("q"));
+            
+                }else if(serviceFacade.getUtilisateurDao().findUtilisateursByPrenom(request.getParameter("q")).size() > 0){
+                
+                    userList = serviceFacade.getUtilisateurDao().findUtilisateursByPrenom(request.getParameter("q"));
+            
+                }else if(serviceFacade.getUtilisateurDao().findUtilisateursByIdentifiantRole(request.getParameter("q")).size() > 0){
+            
+                    userList = serviceFacade.getUtilisateurDao().findUtilisateursByIdentifiantRole(request.getParameter("q"));
+                }
+            }
+       
+            if(userList == null && serviceFacade.getUtilisateurDao() != null && serviceFacade.getUtilisateurDao().findAllUtilisateurs().size() > 0){
+                userList = serviceFacade.getUtilisateurDao().findAllUtilisateurs();
+            }
+       
+            request.setAttribute("userList",userList);
+        
+            this.getServletContext().getRequestDispatcher("/pages/user/allUsers.jsp").forward(request, response);
+        
+        }else response.sendRedirect(request.getContextPath()  + "/LoginServlet");
+    }
+
+    /**
+     * Handles the HTTP <code>POST</code> method.
+     *
+     * @param request servlet request
+     * @param response servlet response
+     * @throws ServletException if a servlet-specific error occurs
+     * @throws IOException if an I/O error occurs
+     */
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        
+        this.doGet(request, response);
+    }
+
+    /**
+     * Returns a short description of the servlet.
+     *
+     * @return a String containing servlet description
+     */
+    @Override
+    public String getServletInfo() {
+        return "Short description";
+    }// </editor-fold>
+
+}

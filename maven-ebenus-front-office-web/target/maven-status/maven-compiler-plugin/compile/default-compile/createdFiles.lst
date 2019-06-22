@@ -1,0 +1,16 @@
+com/cours/ebenus/maven/ebenus/front/office/web/controller/CreateNewUser.class
+com/cours/ebenus/maven/ebenus/front/office/web/model/modelProduct.class
+com/cours/ebenus/maven/ebenus/front/office/web/controller/UserData.class
+com/cours/ebenus/maven/ebenus/front/office/web/controller/LoginController.class
+com/cours/ebenus/maven/ebenus/front/office/web/controller/DeleteController.class
+com/cours/ebenus/maven/ebenus/front/office/web/controller/CartController.class
+com/cours/ebenus/maven/ebenus/front/office/web/model/ModelUserData.class
+com/cours/ebenus/maven/ebenus/front/office/web/controller/DeconnectController.class
+com/cours/ebenus/maven/ebenus/front/office/web/model/ModelPanier.class
+com/cours/ebenus/maven/ebenus/front/office/web/model/ModelUser.class
+com/cours/ebenus/maven/ebenus/front/office/web/controller/ConfimationCommande.class
+com/cours/ebenus/maven/ebenus/front/office/web/model/ModelFavoris.class
+com/cours/ebenus/maven/ebenus/front/office/web/controller/FavorisProduct.class
+com/cours/ebenus/maven/ebenus/front/office/web/controller/ProductBuilder.class
+com/cours/ebenus/maven/ebenus/front/office/web/controller/PanierContent.class
+com/cours/ebenus/maven/ebenus/front/office/web/controller/ProductDetail.class

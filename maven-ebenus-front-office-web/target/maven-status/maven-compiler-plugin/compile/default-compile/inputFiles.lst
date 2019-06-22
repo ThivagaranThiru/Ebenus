@@ -1,0 +1,16 @@
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/controller/UserData.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/controller/DeconnectController.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/controller/ProductBuilder.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/controller/ConfimationCommande.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/controller/CreateNewUser.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/controller/ProductDetail.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/controller/DeleteController.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/model/ModelUserData.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/model/ModelUser.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/model/ModelPanier.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/model/modelProduct.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/controller/CartController.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/controller/PanierContent.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/controller/FavorisProduct.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/model/ModelFavoris.java
+/home/thiva/Documents/workspace-sts-3.9.7.RELEASE/maven-ebenus-front-office-web/src/main/java/com/cours/ebenus/maven/ebenus/front/office/web/controller/LoginController.java

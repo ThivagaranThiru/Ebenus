@@ -1,0 +1,14 @@
+com/cours/ebenus/servlets/user/AddUserServlet.class
+com/cours/ebenus/servlets/role/AllRolesServlet.class
+com/cours/ebenus/servlets/login/LoginServlet.class
+com/cours/ebenus/servlets/user/AllUsersServlet.class
+com/cours/ebenus/servlets/commande/DetailsCommandeServlet.class
+com/cours/ebenus/servlets/produit/AllProduitsServlet.class
+com/cours/ebenus/servlets/commande/AllCommandesServlet.class
+com/cours/ebenus/servlets/role/AddRoleServlet.class
+com/cours/ebenus/servlets/produit/AddProduitServlet.class
+com/cours/ebenus/servlets/dashboard/DashboardServlet.class
+com/cours/ebenus/servlets/user/UpdateAdresseLivraison.class
+com/cours/ebenus/servlets/role/UpdateRoleServlet.class
+com/cours/ebenus/servlets/user/UpdateUserServlet.class
+com/cours/ebenus/servlets/produit/UpdateProduitServlet.class
