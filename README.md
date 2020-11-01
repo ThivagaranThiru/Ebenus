@@ -19,3 +19,12 @@ Les applications Front Office et Back office sont caractérisées par :
   - L’application Back office est une application client Web (Standard Servlet Java).   
 
   - L’application Front office sera une application Web http Servlet.
+  
+Technologies utilisées : 
+
+Web Java EE de type Http Servlet Standard 
+MySQL
+JDBC avec DriverManager
+IDE NetBeans
+Tests unitaires JUnit
+Serveur d’application GlassFish
