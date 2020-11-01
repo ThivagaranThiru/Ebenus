@@ -22,9 +22,9 @@ Les applications Front Office et Back office sont caractérisées par :
   
 Technologies utilisées : 
 
-Web Java EE de type Http Servlet Standard 
-MySQL
-JDBC avec DriverManager
-IDE NetBeans
-Tests unitaires JUnit
-Serveur d’application GlassFish
+- Web Java EE de type Http Servlet Standard 
+- MySQL
+- JDBC avec DriverManager
+- IDE NetBeans
+- Tests unitaires JUnit
+- Serveur d’application GlassFish
